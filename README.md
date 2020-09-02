@@ -1,6 +1,9 @@
 # react-vs-vue
 
-react-todo-2020 vs vue-todo-2020
+- vue-todo-2019   by vue2
+- vue-todo-2020   by vue3
+- react-todo-2019 by no-hooks
+- react-todo-2020 by hooks
 
 ## vue-todo-2020
 
