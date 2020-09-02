@@ -4,7 +4,12 @@
     <h1 class="todo__header">Vue To Do</h1>
     <div class="todo__container">
       <div class="todo__content">
-        <ToDoItem v-for="item in list" :item="item" @delete="onDeleteItem" :key="item.id" />
+        <ToDoItem
+          v-for="item in list"
+          :key="item.id"
+          :item="item"
+          @delete="onDeleteItem"
+        />
       </div>
       <div class="todo__input">
         <input
