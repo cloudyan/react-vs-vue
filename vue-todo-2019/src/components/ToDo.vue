@@ -39,10 +39,10 @@ export default {
   data() {
     return {
       list: [
-        { id: 1, text: "clean the house" },
-        { id: 2, text: "buy milk" },
+        { id: 1, text: 'clean the house' },
+        { id: 2, text: 'buy milk' },
       ],
-      todo: "",
+      todo: '',
       logo: Logo
     };
   },
@@ -51,7 +51,7 @@ export default {
     createNewToDoItem() {
       //validate todo
       if (!this.todo) {
-        alert("Please enter a todo!");
+        alert('Please enter a todo!');
         return;
       }
 
@@ -59,7 +59,7 @@ export default {
         ? Math.max.apply(null, this.list.map(t => t.id)) + 1
         : 1;
       this.list.push({ id: newId, text: this.todo });
-      this.todo = "";
+      this.todo = '';
     },
     onDeleteItem(id) {
       this.list = this.list.filter(item => item.id !== id);
