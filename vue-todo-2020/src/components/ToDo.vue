@@ -85,7 +85,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .logo {
   width: 50px;
   position: relative;

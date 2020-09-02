@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .todo-item {
   display: flex;
   justify-content: center;
